@@ -2,6 +2,6 @@ version: '2'
 
 services:
   logic-test-kiwi:
-    image: chalmersrevere/opendlv-logic-test-kiwi-armhf:v0.0.5
+    image: control-kiwi-project-v2
     network_mode: "host"
-    command: "/usr/bin/opendlv-logic-test-kiwi --cid=111 --freq=100 --frame-id=0"
+    command: "/usr/bin/opendlv-logic-test-kiwi --cid=112 --freq=100"
