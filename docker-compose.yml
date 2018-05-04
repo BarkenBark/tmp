@@ -4,4 +4,4 @@ services:
   control-kiwi:
     image: control-kiwi-practical
     network_mode: "host"
-    command: "/usr/bin/control-kiwi --cid=112 --freq=100"
+    command: "/usr/bin/control-kiwi --cid=112 --freq=100 --isSimulation=false --slowSpeed=0.09 --defaultSpeed=0.12"
