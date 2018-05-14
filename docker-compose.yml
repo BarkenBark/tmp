@@ -1,7 +1,7 @@
 version: '2'
 
 services:
-  control-kiwi:
+  control-kiwi-robot:
     image: control-kiwi-robot
     network_mode: "host"
     command: "/usr/bin/control-kiwi --cid=112 --freq=100 --isSimulation=false --slowSpeed=0.09 --defaultSpeed=0.09 --wallDistanceLimit=0.5 --closeWallDistanceLimit = 0.12"
